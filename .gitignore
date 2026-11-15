@@ -1,0 +1,16 @@
+# Visual Studio / MSBuild output
+.vs/
+x64/
+ARM64/
+Debug/
+Release/
+bin/
+obj/
+*.user
+*.aps
+*.ipch
+*.pdb
+*.ilk
+*.VC.db
+*.VC.opendb
+__pycache__/

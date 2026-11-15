@@ -1,0 +1,100 @@
+{
+  "titleImage": "images/title.png",
+  "titleMusic": "music/title.wav",
+  "startDialog": "dialog/intro.json",
+  "credits": "data/credits.json",
+  "website": "https://j2i.net/apps/pluto-fall",
+  "selectBackground": "images/bg_orbit.png",
+  "startLives": 3,
+  "startHealth": 10,
+  "startBombs": 3,
+  "fireInterval": 0.11,
+  "bombRadius": 5.0,
+  "bombDamage": 12,
+  "gameOverWhenAnyPlayerDies": true,
+  "playerBullet": {
+    "color": "#66F2FF",
+    "size": [
+      0.7,
+      0.14,
+      0.14
+    ],
+    "damage": 1,
+    "radius": 0.25,
+    "speed": 26
+  },
+  "playerBomb": {
+    "color": "#FFD933",
+    "size": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "damage": 2,
+    "radius": 0.4,
+    "speed": 13
+  },
+  "players": [
+    {
+      "name": {
+        "en": "Arrow",
+        "es": "Flecha",
+        "fr": "Flèche",
+        "de": "Pfeil",
+        "ja": "アロー"
+      },
+      "model": "models/player_arrow.glb",
+      "textureFolder": "textures",
+      "transform": {
+        "scale": 1.0
+      },
+      "speed": 11,
+      "radius": 0.45
+    },
+    {
+      "name": {
+        "en": "Delta",
+        "es": "Delta",
+        "fr": "Delta",
+        "de": "Delta",
+        "ja": "デルタ"
+      },
+      "model": "models/player_delta.glb",
+      "textureFolder": "textures",
+      "transform": {
+        "scale": 1.0
+      },
+      "speed": 12,
+      "radius": 0.45
+    },
+    {
+      "name": {
+        "en": "Twin Hawk",
+        "es": "Halcón Gemelo",
+        "fr": "Faucon Jumeau",
+        "de": "Zwillingsfalke",
+        "ja": "ツインホーク"
+      },
+      "model": "models/player_twin.glb",
+      "textureFolder": "textures",
+      "transform": {
+        "scale": 1.0
+      },
+      "speed": 10,
+      "radius": 0.5
+    }
+  ],
+  "sounds": {
+    "shoot": "sounds/shoot.wav",
+    "bomb": "sounds/bomb.wav",
+    "explosion": "sounds/explosion.wav",
+    "bigExplosion": "sounds/big_explosion.wav",
+    "hit": "sounds/hit.wav",
+    "playerHit": "sounds/player_hit.wav",
+    "powerup": "sounds/powerup.wav",
+    "extraLife": "sounds/extra_life.wav",
+    "menuMove": "sounds/menu_move.wav",
+    "menuSelect": "sounds/menu_select.wav",
+    "gameOver": "sounds/game_over.wav"
+  }
+}

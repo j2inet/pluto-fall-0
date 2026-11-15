@@ -1,0 +1,33 @@
+{
+  "name": "fighter",
+  "model": "models/enemy_fighter.glb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.0
+  },
+  "life": 4,
+  "radius": 0.7,
+  "score": 150,
+  "contactDamage": 3,
+  "motion": {
+    "name": "forward",
+    "speed": 7
+  },
+  "fire": {
+    "name": "straight-ahead",
+    "interval": 1.4,
+    "delay": 0.5,
+    "speed": 12
+  },
+  "projectile": {
+    "color": "#FF5533",
+    "size": [
+      0.6,
+      0.14,
+      0.14
+    ],
+    "damage": 1,
+    "life": 1,
+    "radius": 0.2
+  }
+}

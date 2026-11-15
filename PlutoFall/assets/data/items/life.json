@@ -1,0 +1,20 @@
+{
+  "name": "life",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.1
+  },
+  "radius": 0.8,
+  "motion": {
+    "name": "scroll",
+    "factor": 1.0
+  },
+  "spin": 120,
+  "model": "models/item_life.glb",
+  "effects": {
+    "lives": 1,
+    "score": 500
+  },
+  "glow": "#665010",
+  "sound": "sounds/extra_life.wav"
+}

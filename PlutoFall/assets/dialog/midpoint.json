@@ -1,0 +1,134 @@
+{
+  "typeSound": "sounds/type.wav",
+  "music": "music/dialog.wav",
+  "segments": [
+    {
+      "id": "report",
+      "background": "images/bg_surface.png",
+      "entries": [
+        {
+          "speaker": {
+            "en": "Lt. Okoro",
+            "es": "Teniente Okoro",
+            "ja": "オコロ中尉"
+          },
+          "portrait": "images/portrait_pilot.png",
+          "text": {
+            "en": "Charon station is burning. Their flagship came from somewhere beneath Pluto's ice.",
+            "es": "La estación de Caronte arde. Su nave insignia salió de debajo del hielo de Plutón.",
+            "ja": "カロン基地が燃えている。奴らの旗艦は冥王星の氷の下から来たんだ。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "HALCYON",
+            "es": "HALCYON",
+            "ja": "ハルシオン"
+          },
+          "portrait": "images/portrait_ai.png",
+          "text": {
+            "en": "I detect a massive energy signature. It is a sentinel, guarding something.",
+            "es": "Detecto una enorme firma de energía. Es un centinela que protege algo.",
+            "ja": "巨大なエネルギー反応を検知。何かを守る番人です。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Your call, pilots. Do we evacuate the survivors or hit the sentinel head-on?",
+            "es": "Ustedes deciden. ¿Evacuamos a los supervivientes o atacamos al centinela de frente?",
+            "ja": "判断は任せる。生存者を避難させるか、番人を正面から叩くか？"
+          },
+          "key": "plan",
+          "responses": [
+            {
+              "id": "assault",
+              "text": {
+                "en": "Hit it head-on.",
+                "es": "Atacar de frente.",
+                "ja": "正面から叩く。"
+              }
+            },
+            {
+              "id": "evacuate",
+              "text": {
+                "en": "Cover the evacuation, then strike.",
+                "es": "Cubrir la evacuación y luego atacar.",
+                "ja": "避難を援護してから攻撃する。"
+              },
+              "goto": "evac"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "background": "images/bg_orbit.png",
+      "terminal": true,
+      "entries": [
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Then dive into Pluto's shadow and end this.",
+            "es": "Entonces entren en la sombra de Plutón y acaben con esto.",
+            "ja": "では冥王星の影に飛び込み、決着をつけろ。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evac",
+      "background": "images/bg_orbit.png",
+      "terminal": true,
+      "entries": [
+        {
+          "speaker": {
+            "en": "HALCYON",
+            "es": "HALCYON",
+            "ja": "ハルシオン"
+          },
+          "portrait": "images/portrait_ai.png",
+          "text": {
+            "en": "Shuttles are away. Plotting an intercept course past Charon.",
+            "es": "Las lanzaderas han partido. Trazando rumbo de intercepción junto a Caronte.",
+            "ja": "シャトル発進完了。カロン経由の迎撃コースを設定します。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Lt. Okoro",
+            "es": "Teniente Okoro",
+            "ja": "オコロ中尉"
+          },
+          "portrait": "images/portrait_pilot.png",
+          "text": {
+            "en": "Let's make some noise and keep them looking at us.",
+            "es": "Hagamos ruido para que nos miren a nosotros.",
+            "ja": "派手にやって、奴らの目をこっちに向けさせよう。"
+          }
+        }
+      ]
+    }
+  ],
+  "nextLevels": [
+    {
+      "key": "plan=evacuate",
+      "level": "levels/level2_charon.json"
+    },
+    {
+      "key": "default",
+      "level": "levels/level2_core.json"
+    }
+  ]
+}

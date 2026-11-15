@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{A3C9CB51-BCAA-53E8-95FA-60159305A234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8F320544-C61F-5017-B9D3-234BE301E1D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{DC9BD626-A97E-5799-9FDC-AFE979ED854D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{D4106F10-04D2-5FC4-BA56-31EB699024A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Audio.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CreditsScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DialogScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FireFunctions.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameData.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameplayScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gltf.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Json.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Localization.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuList.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MotionFunctions.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OptionsScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerSelectScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer3D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TitleScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ui.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Audio.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FireFunctions.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Json.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Localization.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MotionFunctions.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer3D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screens.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderSource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ui.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\**\*.json">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

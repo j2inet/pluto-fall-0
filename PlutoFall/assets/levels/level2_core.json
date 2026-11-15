@@ -1,0 +1,2234 @@
+{
+ "name": {
+  "en": "Final Sector: Pluto's Shadow",
+  "es": "Sector final: La sombra de Plutón",
+  "fr": "Secteur final : l'ombre de Pluton",
+  "de": "Letzter Sektor: Plutos Schatten",
+  "ja": "最終セクター：冥王星の影"
+ },
+ "orientation": "portrait",
+ "length": 240,
+ "scrollSpeed": 4.5,
+ "terminal": true,
+ "music": "music/level2.wav",
+ "backgroundColor": "#030208",
+ "backgroundImage": "images/space_portrait.png",
+ "backgroundParallax": 0.2,
+ "nextDialogs": [],
+ "enemies": [
+  {
+   "at": [
+    0,
+    10
+   ],
+   "class": "saucer",
+   "position": [
+    -3.50536850957747,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    18.172467320085477
+   ],
+   "class": "drone",
+   "position": [
+    -3.649695466467313,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    19.172467320085477
+   ],
+   "class": "drone",
+   "position": [
+    -3.649695466467313,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    20.172467320085477
+   ],
+   "class": "drone",
+   "position": [
+    -3.649695466467313,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    21.172467320085477
+   ],
+   "class": "drone",
+   "position": [
+    -3.649695466467313,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    22.172467320085477
+   ],
+   "class": "drone",
+   "position": [
+    -3.649695466467313,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    26.678335949787158
+   ],
+   "class": "saucer",
+   "position": [
+    2.338521234769618,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    35.11499269692434
+   ],
+   "class": "drone",
+   "position": [
+    3.279101224169569,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    36.11499269692434
+   ],
+   "class": "drone",
+   "position": [
+    3.279101224169569,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    37.11499269692434
+   ],
+   "class": "drone",
+   "position": [
+    3.279101224169569,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    38.11499269692434
+   ],
+   "class": "drone",
+   "position": [
+    3.279101224169569,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    39.11499269692434
+   ],
+   "class": "drone",
+   "position": [
+    3.279101224169569,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    43.37359417252906
+   ],
+   "class": "drone",
+   "position": [
+    2.6112729720158416,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    44.37359417252906
+   ],
+   "class": "drone",
+   "position": [
+    2.6112729720158416,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    45.37359417252906
+   ],
+   "class": "drone",
+   "position": [
+    2.6112729720158416,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    46.37359417252906
+   ],
+   "class": "drone",
+   "position": [
+    2.6112729720158416,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    47.37359417252906
+   ],
+   "class": "drone",
+   "position": [
+    2.6112729720158416,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    51.12577872294778
+   ],
+   "class": "drone",
+   "position": [
+    -3.3192663770222355,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    52.12577872294778
+   ],
+   "class": "drone",
+   "position": [
+    -3.3192663770222355,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    53.12577872294778
+   ],
+   "class": "drone",
+   "position": [
+    -3.3192663770222355,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    54.12577872294778
+   ],
+   "class": "drone",
+   "position": [
+    -3.3192663770222355,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    55.12577872294778
+   ],
+   "class": "drone",
+   "position": [
+    -3.3192663770222355,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    57.251365027010976
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    57.251365027010976
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    57.251365027010976
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    66.12991324170545
+   ],
+   "class": "saucer",
+   "position": [
+    3.3582119979997103,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    73.80549498119325
+   ],
+   "class": "drone",
+   "position": [
+    1.0098116714622876,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    74.80549498119325
+   ],
+   "class": "drone",
+   "position": [
+    1.0098116714622876,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    75.80549498119325
+   ],
+   "class": "drone",
+   "position": [
+    1.0098116714622876,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    76.80549498119325
+   ],
+   "class": "drone",
+   "position": [
+    1.0098116714622876,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    77.80549498119325
+   ],
+   "class": "drone",
+   "position": [
+    1.0098116714622876,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    81.84748750943571
+   ],
+   "class": "saucer",
+   "position": [
+    -2.362071051946706,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    89.2183330835248
+   ],
+   "class": "drone",
+   "position": [
+    1.986122961789646,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    90.2183330835248
+   ],
+   "class": "drone",
+   "position": [
+    1.986122961789646,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    91.2183330835248
+   ],
+   "class": "drone",
+   "position": [
+    1.986122961789646,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    92.2183330835248
+   ],
+   "class": "drone",
+   "position": [
+    1.986122961789646,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    93.2183330835248
+   ],
+   "class": "drone",
+   "position": [
+    1.986122961789646,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    96.72724624061216
+   ],
+   "class": "drone",
+   "position": [
+    1.2743959144347992,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    97.72724624061216
+   ],
+   "class": "drone",
+   "position": [
+    1.2743959144347992,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    98.72724624061216
+   ],
+   "class": "drone",
+   "position": [
+    1.2743959144347992,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    99.72724624061216
+   ],
+   "class": "drone",
+   "position": [
+    1.2743959144347992,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    100.72724624061216
+   ],
+   "class": "drone",
+   "position": [
+    1.2743959144347992,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    102.92539730927862
+   ],
+   "class": "saucer",
+   "position": [
+    -2.4780646853730994,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    109.14874730920114
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    109.14874730920114
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    109.14874730920114
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    115.85310417469663
+   ],
+   "class": "drone",
+   "position": [
+    -2.1541109836203702,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    116.85310417469663
+   ],
+   "class": "drone",
+   "position": [
+    -2.1541109836203702,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    117.85310417469663
+   ],
+   "class": "drone",
+   "position": [
+    -2.1541109836203702,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    118.85310417469663
+   ],
+   "class": "drone",
+   "position": [
+    -2.1541109836203702,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    119.85310417469663
+   ],
+   "class": "drone",
+   "position": [
+    -2.1541109836203702,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    123.80290101470278
+   ],
+   "class": "saucer",
+   "position": [
+    -0.06051221150672159,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    130.95058244640023
+   ],
+   "class": "saucer",
+   "position": [
+    4.104666611827653,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    137.81253994653696
+   ],
+   "class": "drone",
+   "position": [
+    0.9357921262259978,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    138.81253994653696
+   ],
+   "class": "drone",
+   "position": [
+    0.9357921262259978,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    139.81253994653696
+   ],
+   "class": "drone",
+   "position": [
+    0.9357921262259978,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    140.81253994653696
+   ],
+   "class": "drone",
+   "position": [
+    0.9357921262259978,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    141.81253994653696
+   ],
+   "class": "drone",
+   "position": [
+    0.9357921262259978,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    145.74082887268293
+   ],
+   "class": "drone",
+   "position": [
+    0.797642180170123,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    146.74082887268293
+   ],
+   "class": "drone",
+   "position": [
+    0.797642180170123,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    147.74082887268293
+   ],
+   "class": "drone",
+   "position": [
+    0.797642180170123,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    148.74082887268293
+   ],
+   "class": "drone",
+   "position": [
+    0.797642180170123,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    149.74082887268293
+   ],
+   "class": "drone",
+   "position": [
+    0.797642180170123,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    152.73614769347105
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    152.73614769347105
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    152.73614769347105
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    160.59959994698622
+   ],
+   "class": "drone",
+   "position": [
+    -3.9002462934004845,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    161.59959994698622
+   ],
+   "class": "drone",
+   "position": [
+    -3.9002462934004845,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    162.59959994698622
+   ],
+   "class": "drone",
+   "position": [
+    -3.9002462934004845,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    163.59959994698622
+   ],
+   "class": "drone",
+   "position": [
+    -3.9002462934004845,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    164.59959994698622
+   ],
+   "class": "drone",
+   "position": [
+    -3.9002462934004845,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    166.78158298917714
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    166.78158298917714
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    166.78158298917714
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    175.69911001672455
+   ],
+   "class": "drone",
+   "position": [
+    1.5374813805635839,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    176.69911001672455
+   ],
+   "class": "drone",
+   "position": [
+    1.5374813805635839,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    177.69911001672455
+   ],
+   "class": "drone",
+   "position": [
+    1.5374813805635839,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    178.69911001672455
+   ],
+   "class": "drone",
+   "position": [
+    1.5374813805635839,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    179.69911001672455
+   ],
+   "class": "drone",
+   "position": [
+    1.5374813805635839,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    183.72623298716286
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    183.72623298716286
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    183.72623298716286
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    191.85284575138434
+   ],
+   "class": "fighter",
+   "position": [
+    -5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    191.85284575138434
+   ],
+   "class": "fighter",
+   "position": [
+    0,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    191.85284575138434
+   ],
+   "class": "fighter",
+   "position": [
+    5,
+    11,
+    0
+   ],
+   "motion": {
+    "name": "dive",
+    "distance": 5,
+    "delay": 0.8,
+    "speed": 12
+   }
+  },
+  {
+   "at": [
+    0,
+    199.24683431150729
+   ],
+   "class": "saucer",
+   "position": [
+    2.671697595603977,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    208.22673553350523
+   ],
+   "class": "drone",
+   "position": [
+    -1.5066027058288016,
+    11.0,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    209.22673553350523
+   ],
+   "class": "drone",
+   "position": [
+    -1.5066027058288016,
+    12.4,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    210.22673553350523
+   ],
+   "class": "drone",
+   "position": [
+    -1.5066027058288016,
+    13.8,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    211.22673553350523
+   ],
+   "class": "drone",
+   "position": [
+    -1.5066027058288016,
+    15.2,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    212.22673553350523
+   ],
+   "class": "drone",
+   "position": [
+    -1.5066027058288016,
+    16.6,
+    0
+   ],
+   "motion": {
+    "name": "wave",
+    "speed": 5,
+    "amplitude": 2.5,
+    "frequency": 0.4
+   }
+  },
+  {
+   "at": [
+    0,
+    214.4842983184211
+   ],
+   "class": "saucer",
+   "position": [
+    -4.824955441833372,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    240
+   ],
+   "class": "sentinel",
+   "position": [
+    0,
+    13,
+    0
+   ],
+   "boss": true,
+   "motion": {
+    "name": "hold",
+    "target": [
+     0,
+     4
+    ],
+    "speed": 3
+   }
+  }
+ ],
+ "powerups": [
+  {
+   "at": [
+    0,
+    25.0
+   ],
+   "class": "health",
+   "position": [
+    3.1989769269986823,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    65.0
+   ],
+   "class": "bomb",
+   "position": [
+    4.681082516506995,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    105.0
+   ],
+   "class": "life",
+   "position": [
+    -0.5054903034890481,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    145.0
+   ],
+   "class": "maxhealth",
+   "position": [
+    -2.313427598264192,
+    11,
+    0
+   ]
+  },
+  {
+   "at": [
+    0,
+    185.0
+   ],
+   "class": "bomb",
+   "position": [
+    -2.901627800125274,
+    11,
+    0
+   ]
+  }
+ ],
+ "background": [
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.923822187652815
+   },
+   "position": [
+    -15.043142528236892,
+    161.18281560747926,
+    13.244405080802652
+   ],
+   "spin": [
+    1.9252570043855712,
+    36.219226932259545,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.7856471020334365
+   },
+   "position": [
+    16.65128455196877,
+    142.27353194868303,
+    40.81389990574918
+   ],
+   "spin": [
+    16.266963103525953,
+    -21.489311755962408,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.8567879738405595
+   },
+   "position": [
+    -0.7206858657882584,
+    16.456944803572952,
+    8.13284745178002
+   ],
+   "spin": [
+    -0.6643112411569874,
+    -3.9391759601716245,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.022731457785188
+   },
+   "position": [
+    -18.683224546600712,
+    99.4296380712658,
+    19.694887678873883
+   ],
+   "spin": [
+    27.218482691838958,
+    -39.860689446599736,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.6510276576398435
+   },
+   "position": [
+    17.633761321824018,
+    41.21075037396746,
+    42.2767578157963
+   ],
+   "spin": [
+    17.041885263753898,
+    32.12532504791487,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.0057661425657354
+   },
+   "position": [
+    -6.644456033566428,
+    112.15383933068718,
+    44.955322714067705
+   ],
+   "spin": [
+    7.134132430792263,
+    -11.143254086127587,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.1992738519453923
+   },
+   "position": [
+    -11.691926863631059,
+    22.549705154939005,
+    11.763264744802175
+   ],
+   "spin": [
+    26.77407959817539,
+    -17.150144794605087,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.9098258436357982
+   },
+   "position": [
+    -13.035114746585437,
+    79.08928389417075,
+    26.90563054887392
+   ],
+   "spin": [
+    -24.812076226959448,
+    -10.132057198797071,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.9386313706550498
+   },
+   "position": [
+    19.98186088732323,
+    221.1101895424008,
+    31.343144743155996
+   ],
+   "spin": [
+    33.07391099675081,
+    35.25594386705933,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.368919407463149
+   },
+   "position": [
+    11.417774261459698,
+    22.863768955327497,
+    35.097041332742435
+   ],
+   "spin": [
+    -3.9311661631381156,
+    20.21344073925765,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.5022869945859192
+   },
+   "position": [
+    -11.117167344317554,
+    22.733995296771525,
+    42.290750722244404
+   ],
+   "spin": [
+    -29.81509436919523,
+    -2.2252730042537223,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.081127993721101
+   },
+   "position": [
+    -10.515862991671083,
+    202.1484512990249,
+    44.1229585271646
+   ],
+   "spin": [
+    -19.186475630873883,
+    12.479626082578307,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.0211708074543984
+   },
+   "position": [
+    2.9807285277661,
+    112.53562220285127,
+    14.191301307071642
+   ],
+   "spin": [
+    -27.06744308759535,
+    -23.370198309061063,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.8683438743394403
+   },
+   "position": [
+    -0.15205916300341826,
+    67.2065655721454,
+    41.53159743782034
+   ],
+   "spin": [
+    39.71800908997527,
+    -4.003164513455026,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.7954344895996109
+   },
+   "position": [
+    -15.99483102044126,
+    33.58577210769596,
+    20.65234364991889
+   ],
+   "spin": [
+    -32.71245281738774,
+    -20.869873542603656,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.9617005954168871
+   },
+   "position": [
+    3.620122600431557,
+    240.68537939504716,
+    35.73733148137311
+   ],
+   "spin": [
+    -6.977467308737111,
+    -6.889314206933655,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.3338353998512544
+   },
+   "position": [
+    -6.402977689709722,
+    97.93280613086269,
+    10.296202163632199
+   ],
+   "spin": [
+    -17.79869224173978,
+    37.41482100495412,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.776223322461951
+   },
+   "position": [
+    0.17657887577813725,
+    173.7029955199442,
+    39.92586991488482
+   ],
+   "spin": [
+    -22.722948734403758,
+    -18.318329514986196,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.9478351096688586
+   },
+   "position": [
+    -5.212628889224163,
+    125.92318201271844,
+    43.295912284736275
+   ],
+   "spin": [
+    27.894694098436204,
+    29.83127890112422,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.6305347142975466
+   },
+   "position": [
+    -24.32333834387069,
+    194.47306408405004,
+    41.14077121583538
+   ],
+   "spin": [
+    -2.1385377834550994,
+    6.974119239940855,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.600250162947126
+   },
+   "position": [
+    -5.640903023090942,
+    250.97509116919176,
+    38.54680063225979
+   ],
+   "spin": [
+    28.437013905138613,
+    37.779289751619345,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.9478513963248584
+   },
+   "position": [
+    -20.329608055668913,
+    50.138380226029,
+    27.327527463136896
+   ],
+   "spin": [
+    14.56600493722582,
+    35.3192447575303,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.6104294045374181
+   },
+   "position": [
+    7.662102222580032,
+    208.8481424202814,
+    24.92102655131463
+   ],
+   "spin": [
+    4.120073185480599,
+    -36.83629929937957,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.6952180652015838
+   },
+   "position": [
+    -13.906004893721054,
+    249.17922846804447,
+    31.88371372562498
+   ],
+   "spin": [
+    -15.697419069746203,
+    -29.76265214295821,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.952511526193875
+   },
+   "position": [
+    7.087137063938279,
+    191.6312985017855,
+    12.148909313078647
+   ],
+   "spin": [
+    -34.371847331315706,
+    1.954934563362869,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.4160473634927158
+   },
+   "position": [
+    -5.819738734022845,
+    68.13158873861036,
+    30.23925319345761
+   ],
+   "spin": [
+    -39.163068808629326,
+    -15.87829590059874,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.2449668779227516
+   },
+   "position": [
+    23.864878538627664,
+    177.58966623430632,
+    40.699639074260226
+   ],
+   "spin": [
+    -1.9756623945965117,
+    -21.21855226337777,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.9458817380740729
+   },
+   "position": [
+    23.951939950988645,
+    193.20995233140135,
+    19.373719632971454
+   ],
+   "spin": [
+    -38.25700927131461,
+    -0.1351804227539759,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 1.5442485668214834
+   },
+   "position": [
+    -4.159174649292325,
+    76.8865917566309,
+    32.69213680699414
+   ],
+   "spin": [
+    34.01286624086977,
+    -21.857114140425054,
+    0
+   ]
+  },
+  {
+   "model": "models/asteroid.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 0.6477363927226654
+   },
+   "position": [
+    -8.421318342139749,
+    119.3447799548743,
+    33.25496726978759
+   ],
+   "spin": [
+    -24.153628941325273,
+    23.765137369699005,
+    0
+   ]
+  },
+  {
+   "model": "models/charon.glb",
+   "textureFolder": "textures",
+   "transform": {
+    "scale": 14
+   },
+   "position": [
+    -30,
+    120,
+    120
+   ],
+   "spin": [
+    0,
+    6,
+    0
+   ]
+  }
+ ]
+}

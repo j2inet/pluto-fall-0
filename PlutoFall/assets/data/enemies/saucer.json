@@ -1,0 +1,39 @@
+{
+  "name": "saucer",
+  "model": "models/enemy_saucer.glb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.0
+  },
+  "life": 8,
+  "radius": 0.9,
+  "score": 300,
+  "contactDamage": 3,
+  "motion": {
+    "name": "hold",
+    "distance": 7,
+    "speed": 5,
+    "holdTime": 5,
+    "exitSpeed": 5
+  },
+  "fire": {
+    "name": "homed",
+    "interval": 1.3,
+    "delay": 1.2,
+    "speed": 9,
+    "count": 3,
+    "spread": 12
+  },
+  "projectile": {
+    "color": "#B3FF4D",
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damage": 2,
+    "life": 2,
+    "radius": 0.25
+  },
+  "drop": "health"
+}

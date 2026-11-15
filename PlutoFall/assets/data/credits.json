@@ -1,0 +1,110 @@
+{
+  "credits": [
+    {
+      "title": {
+        "en": "Created By",
+        "es": "Creado por",
+        "fr": "Créé par",
+        "de": "Erstellt von",
+        "ja": "制作"
+      },
+      "contributors": [
+        {
+          "value": "Joel Ivory Johnson",
+          "color": "#FFD54A"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Game Design",
+        "es": "Diseño del juego",
+        "fr": "Conception",
+        "de": "Spieldesign",
+        "ja": "ゲームデザイン"
+      },
+      "contributors": [
+        {
+          "value": "Joel Ivory Johnson",
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Programming",
+        "es": "Programación",
+        "fr": "Programmation",
+        "de": "Programmierung",
+        "ja": "プログラム"
+      },
+      "contributors": [
+        {
+          "value": "Joel Ivory Johnson",
+          "color": "#8FD8FF"
+        },
+        {
+          "value": "Claude (Anthropic)",
+          "color": "#D9A6FF"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Technology",
+        "es": "Tecnología",
+        "fr": "Technologie",
+        "de": "Technologie",
+        "ja": "技術"
+      },
+      "contributors": [
+        {
+          "value": "Direct3D 11 · Direct2D · DirectWrite",
+          "color": "#9FE8A0"
+        },
+        {
+          "value": "XAudio2 · Media Foundation",
+          "color": "#9FE8A0"
+        },
+        {
+          "value": "XInput",
+          "color": "#9FE8A0"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Placeholder Art & Audio",
+        "es": "Arte y audio provisionales",
+        "fr": "Art et sons provisoires",
+        "de": "Platzhalter-Grafik & -Audio",
+        "ja": "仮素材"
+      },
+      "contributors": [
+        {
+          "value": "tools/generate_assets.py",
+          "color": "#CCCCCC"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Special Thanks",
+        "es": "Agradecimientos",
+        "fr": "Remerciements",
+        "de": "Besonderer Dank",
+        "ja": "スペシャルサンクス"
+      },
+      "contributors": [
+        {
+          "value": "Clyde Tombaugh, who found Pluto in 1930",
+          "color": "#FFB070"
+        },
+        {
+          "value": "You, for playing!",
+          "color": "#FFFFFF"
+        }
+      ]
+    }
+  ]
+}

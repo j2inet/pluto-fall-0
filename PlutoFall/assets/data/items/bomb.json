@@ -1,0 +1,18 @@
+{
+  "name": "bomb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.1
+  },
+  "radius": 0.8,
+  "motion": {
+    "name": "scroll",
+    "factor": 1.0
+  },
+  "spin": 120,
+  "model": "models/item_bomb.glb",
+  "effects": {
+    "bombs": 2
+  },
+  "glow": "#662000"
+}

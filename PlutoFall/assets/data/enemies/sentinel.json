@@ -1,0 +1,38 @@
+{
+  "name": "sentinel",
+  "model": "models/boss_sentinel.glb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.0
+  },
+  "life": 220,
+  "radius": 2.0,
+  "score": 8000,
+  "contactDamage": 6,
+  "boss": true,
+  "motion": {
+    "name": "circle",
+    "radius": 2.5,
+    "angularSpeed": 0.8,
+    "speed": 0.6
+  },
+  "fire": {
+    "name": "spiral",
+    "interval": 0.14,
+    "delay": 2.0,
+    "speed": 7,
+    "count": 3,
+    "rotation": 13
+  },
+  "projectile": {
+    "color": "#D94DFF",
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damage": 2,
+    "life": 2,
+    "radius": 0.25
+  }
+}

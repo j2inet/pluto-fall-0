@@ -1,0 +1,18 @@
+{
+  "name": "health",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.1
+  },
+  "radius": 0.8,
+  "motion": {
+    "name": "scroll",
+    "factor": 1.0
+  },
+  "spin": 120,
+  "model": "models/item_health.glb",
+  "effects": {
+    "health": 4
+  },
+  "glow": "#1A661F"
+}

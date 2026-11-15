@@ -1,0 +1,169 @@
+{
+  "typeSound": "sounds/type.wav",
+  "music": "music/dialog.wav",
+  "charactersPerSecond": 42,
+  "boxColor": "#05103AC8",
+  "borderColor": "#73BFFF",
+  "textColor": "#FFFFFF",
+  "segments": [
+    {
+      "id": "briefing",
+      "background": "images/bg_bridge.png",
+      "entries": [
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Pilots, listen up. Forty minutes ago every relay around Pluto went silent.",
+            "es": "Pilotos, atención. Hace cuarenta minutos todos los relés alrededor de Plutón quedaron en silencio.",
+            "ja": "パイロット諸君、よく聞け。40分前、冥王星周辺の中継局がすべて沈黙した。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "HALCYON",
+            "es": "HALCYON",
+            "ja": "ハルシオン"
+          },
+          "portrait": "images/portrait_ai.png",
+          "text": {
+            "en": "Long-range scans show an armada rising out of the Kuiper Belt. Origin: unknown.",
+            "es": "Los escáneres de largo alcance muestran una armada saliendo del cinturón de Kuiper. Origen: desconocido.",
+            "ja": "長距離スキャンがカイパーベルトから現れる艦隊を捉えました。出所は不明です。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Lt. Okoro",
+            "es": "Teniente Okoro",
+            "ja": "オコロ中尉"
+          },
+          "portrait": "images/portrait_pilot.png",
+          "text": {
+            "en": "So the quiet outpost at the edge of the system isn't so quiet anymore.",
+            "es": "Así que el puesto tranquilo del borde del sistema ya no es tan tranquilo.",
+            "ja": "辺境の静かな前哨基地も、もう静かじゃないってことか。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "We need eyes on the Charon research station. How do you want to get there?",
+            "es": "Necesitamos ver la estación de investigación de Caronte. ¿Cómo quieren llegar?",
+            "ja": "カロン研究基地の状況を確認したい。どのルートで向かう？"
+          },
+          "key": "route",
+          "responses": [
+            {
+              "id": "belt",
+              "text": {
+                "en": "Through the asteroid belt — use the rocks as cover.",
+                "es": "Por el cinturón de asteroides: usaremos las rocas como cobertura.",
+                "ja": "小惑星帯を抜ける。岩を盾にする。"
+              },
+              "goto": "belt"
+            },
+            {
+              "id": "direct",
+              "text": {
+                "en": "Straight down their throat. No time to waste.",
+                "es": "Directo hacia ellos. No hay tiempo que perder.",
+                "ja": "正面突破だ。時間がない。"
+              },
+              "goto": "direct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "belt",
+      "background": "images/bg_orbit.png",
+      "terminal": true,
+      "entries": [
+        {
+          "speaker": {
+            "en": "HALCYON",
+            "es": "HALCYON",
+            "ja": "ハルシオン"
+          },
+          "portrait": "images/portrait_ai.png",
+          "text": {
+            "en": "Plotting a course through the belt. Expect heavy debris and ambushes.",
+            "es": "Trazando rumbo por el cinturón. Esperen escombros y emboscadas.",
+            "ja": "小惑星帯を通る航路を設定。障害物と待ち伏せに注意してください。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Good hunting. Vega out.",
+            "es": "Buena caza. Vega fuera.",
+            "ja": "健闘を祈る。以上だ。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "direct",
+      "background": "images/bg_orbit.png",
+      "terminal": true,
+      "entries": [
+        {
+          "speaker": {
+            "en": "Lt. Okoro",
+            "es": "Teniente Okoro",
+            "ja": "オコロ中尉"
+          },
+          "portrait": "images/portrait_pilot.png",
+          "text": {
+            "en": "Punching it! Everyone stay in formation and keep your bombs for the big ones.",
+            "es": "¡A toda máquina! Mantengan la formación y guarden las bombas para los grandes.",
+            "ja": "全速前進！編隊を維持して、ボムは大物用に取っておけ。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Bold. I like it. Vega out.",
+            "es": "Atrevido. Me gusta. Vega fuera.",
+            "ja": "大胆だな。気に入った。以上だ。"
+          }
+        }
+      ]
+    }
+  ],
+  "nextLevels": [
+    {
+      "key": "route=belt",
+      "level": "levels/level1_belt.json"
+    },
+    {
+      "key": "route=direct",
+      "level": "levels/level1_direct.json"
+    },
+    {
+      "key": "default",
+      "level": "levels/level1_belt.json"
+    }
+  ]
+}

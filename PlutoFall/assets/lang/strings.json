@@ -1,0 +1,311 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "locale": "en-us"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "locale": "es-es"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "locale": "fr-fr"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "locale": "de-de"
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "locale": "ja-jp"
+    }
+  ],
+  "strings": {
+    "title.name": {
+      "en": "PLUTO FALL",
+      "es": "PLUTO FALL",
+      "fr": "PLUTO FALL",
+      "de": "PLUTO FALL",
+      "ja": "プルート・フォール"
+    },
+    "title.byline": {
+      "en": "A game from Joel Ivory Johnson",
+      "es": "Un juego de Joel Ivory Johnson",
+      "fr": "Un jeu de Joel Ivory Johnson",
+      "de": "Ein Spiel von Joel Ivory Johnson",
+      "ja": "Joel Ivory Johnson のゲーム"
+    },
+    "menu.start": {
+      "en": "Start Game",
+      "es": "Comenzar",
+      "fr": "Commencer",
+      "de": "Spiel starten",
+      "ja": "ゲームスタート"
+    },
+    "menu.credits": {
+      "en": "Credits",
+      "es": "Créditos",
+      "fr": "Crédits",
+      "de": "Mitwirkende",
+      "ja": "クレジット"
+    },
+    "menu.website": {
+      "en": "Visit Game Website",
+      "es": "Visitar el sitio web",
+      "fr": "Visiter le site du jeu",
+      "de": "Webseite besuchen",
+      "ja": "公式サイトへ"
+    },
+    "menu.options": {
+      "en": "Options",
+      "es": "Opciones",
+      "fr": "Options",
+      "de": "Optionen",
+      "ja": "オプション"
+    },
+    "menu.quit": {
+      "en": "Quit",
+      "es": "Salir",
+      "fr": "Quitter",
+      "de": "Beenden",
+      "ja": "終了"
+    },
+    "hint.menu": {
+      "en": "Arrows / D-pad to choose  •  Enter / A to select",
+      "es": "Flechas / cruceta para elegir  •  Enter / A para seleccionar",
+      "fr": "Flèches / croix pour choisir  •  Entrée / A pour valider",
+      "de": "Pfeile / Steuerkreuz zum Wählen  •  Enter / A zum Bestätigen",
+      "ja": "十字キーで選択 • Enter / A で決定"
+    },
+    "options.title": {
+      "en": "Options",
+      "es": "Opciones",
+      "fr": "Options",
+      "de": "Optionen",
+      "ja": "オプション"
+    },
+    "options.sfx": {
+      "en": "Sound Effects",
+      "es": "Efectos de sonido",
+      "fr": "Effets sonores",
+      "de": "Soundeffekte",
+      "ja": "効果音"
+    },
+    "options.music": {
+      "en": "Music",
+      "es": "Música",
+      "fr": "Musique",
+      "de": "Musik",
+      "ja": "音楽"
+    },
+    "options.language": {
+      "en": "Language",
+      "es": "Idioma",
+      "fr": "Langue",
+      "de": "Sprache",
+      "ja": "言語"
+    },
+    "options.fullscreen": {
+      "en": "Fullscreen",
+      "es": "Pantalla completa",
+      "fr": "Plein écran",
+      "de": "Vollbild",
+      "ja": "フルスクリーン"
+    },
+    "options.back": {
+      "en": "Back",
+      "es": "Volver",
+      "fr": "Retour",
+      "de": "Zurück",
+      "ja": "戻る"
+    },
+    "options.on": {
+      "en": "On",
+      "es": "Sí",
+      "fr": "Oui",
+      "de": "An",
+      "ja": "オン"
+    },
+    "options.off": {
+      "en": "Off",
+      "es": "No",
+      "fr": "Non",
+      "de": "Aus",
+      "ja": "オフ"
+    },
+    "hint.options": {
+      "en": "Left / Right to change  •  Esc / B to go back",
+      "es": "Izquierda / derecha para cambiar  •  Esc / B para volver",
+      "fr": "Gauche / droite pour modifier  •  Échap / B pour revenir",
+      "de": "Links / Rechts zum Ändern  •  Esc / B zurück",
+      "ja": "左右で変更 • Esc / B で戻る"
+    },
+    "hint.credits": {
+      "en": "Up / Down: scroll speed  •  Fire or Esc: return",
+      "es": "Arriba / abajo: velocidad  •  Disparo o Esc: volver",
+      "fr": "Haut / bas : vitesse  •  Tir ou Échap : retour",
+      "de": "Hoch / Runter: Tempo  •  Feuer oder Esc: zurück",
+      "ja": "上下で速度 • 射撃 / Esc で戻る"
+    },
+    "select.title": {
+      "en": "Choose Your Craft",
+      "es": "Elige tu nave",
+      "fr": "Choisissez votre vaisseau",
+      "de": "Wähle dein Schiff",
+      "ja": "機体を選択"
+    },
+    "select.join": {
+      "en": "Press A or Enter to join",
+      "es": "Pulsa A o Enter para unirte",
+      "fr": "Appuyez sur A ou Entrée pour rejoindre",
+      "de": "Drücke A oder Enter zum Beitreten",
+      "ja": "A または Enter で参加"
+    },
+    "select.lock": {
+      "en": "Fire to lock in",
+      "es": "Dispara para confirmar",
+      "fr": "Tirez pour valider",
+      "de": "Feuer zum Bestätigen",
+      "ja": "射撃ボタンで決定"
+    },
+    "select.ready": {
+      "en": "READY!",
+      "es": "¡LISTO!",
+      "fr": "PRÊT !",
+      "de": "BEREIT!",
+      "ja": "準備完了！"
+    },
+    "select.unlock": {
+      "en": "B / Shift: change craft",
+      "es": "B / Shift: cambiar nave",
+      "fr": "B / Maj : changer",
+      "de": "B / Umschalt: ändern",
+      "ja": "B / Shift：選び直す"
+    },
+    "select.leave": {
+      "en": "◀ ▶ choose  •  B / Shift: leave",
+      "es": "◀ ▶ elegir  •  B / Shift: salir",
+      "fr": "◀ ▶ choisir  •  B / Maj : quitter",
+      "de": "◀ ▶ wählen  •  B / Umschalt: verlassen",
+      "ja": "◀ ▶ 選択 • B / Shift：退出"
+    },
+    "select.waiting": {
+      "en": "Waiting for all pilots to lock in…",
+      "es": "Esperando a que todos confirmen…",
+      "fr": "En attente de tous les pilotes…",
+      "de": "Warte auf alle Piloten…",
+      "ja": "全員の決定を待っています…"
+    },
+    "select.back": {
+      "en": "Up to 4 pilots  •  Esc / Back returns to title",
+      "es": "Hasta 4 pilotos  •  Esc / Back vuelve al título",
+      "fr": "Jusqu'à 4 pilotes  •  Échap / Back : titre",
+      "de": "Bis zu 4 Piloten  •  Esc / Back: Titel",
+      "ja": "最大4人 • Esc / Back でタイトルへ"
+    },
+    "select.starting": {
+      "en": "Launching…",
+      "es": "Despegando…",
+      "fr": "Décollage…",
+      "de": "Start…",
+      "ja": "発進…"
+    },
+    "device.keyboard": {
+      "en": "Keyboard",
+      "es": "Teclado",
+      "fr": "Clavier",
+      "de": "Tastatur",
+      "ja": "キーボード"
+    },
+    "device.controller": {
+      "en": "Controller {0}",
+      "es": "Mando {0}",
+      "fr": "Manette {0}",
+      "de": "Controller {0}",
+      "ja": "コントローラー {0}"
+    },
+    "game.over": {
+      "en": "GAME OVER",
+      "es": "FIN DEL JUEGO",
+      "fr": "PARTIE TERMINÉE",
+      "de": "SPIEL VORBEI",
+      "ja": "ゲームオーバー"
+    },
+    "game.warning": {
+      "en": "WARNING",
+      "es": "PELIGRO",
+      "fr": "ALERTE",
+      "de": "WARNUNG",
+      "ja": "警告"
+    },
+    "game.clear": {
+      "en": "SECTOR CLEAR",
+      "es": "SECTOR DESPEJADO",
+      "fr": "SECTEUR NETTOYÉ",
+      "de": "SEKTOR GESÄUBERT",
+      "ja": "セクター制圧"
+    },
+    "hud.lives": {
+      "en": "Lives",
+      "es": "Vidas",
+      "fr": "Vies",
+      "de": "Leben",
+      "ja": "残機"
+    },
+    "hud.bombs": {
+      "en": "Bombs",
+      "es": "Bombas",
+      "fr": "Bombes",
+      "de": "Bomben",
+      "ja": "ボム"
+    },
+    "hud.health": {
+      "en": "HP",
+      "es": "PS",
+      "fr": "PV",
+      "de": "LP",
+      "ja": "HP"
+    },
+    "hud.respawning": {
+      "en": "Respawning…",
+      "es": "Reapareciendo…",
+      "fr": "Réapparition…",
+      "de": "Wiedereinstieg…",
+      "ja": "復帰中…"
+    },
+    "hud.boss": {
+      "en": "BOSS",
+      "es": "JEFE",
+      "fr": "BOSS",
+      "de": "BOSS",
+      "ja": "ボス"
+    },
+    "pause.title": {
+      "en": "Paused",
+      "es": "Pausa",
+      "fr": "Pause",
+      "de": "Pause",
+      "ja": "ポーズ"
+    },
+    "pause.resume": {
+      "en": "Resume",
+      "es": "Continuar",
+      "fr": "Reprendre",
+      "de": "Weiter",
+      "ja": "再開"
+    },
+    "pause.quit": {
+      "en": "Quit to Title",
+      "es": "Salir al título",
+      "fr": "Retour au titre",
+      "de": "Zum Titel",
+      "ja": "タイトルへ"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "typeSound": "sounds/type.wav",
+  "music": "music/dialog.wav",
+  "segments": [
+    {
+      "id": "regroup",
+      "background": "images/bg_bridge.png",
+      "terminal": true,
+      "entries": [
+        {
+          "speaker": {
+            "en": "Commander Vega",
+            "es": "Comandante Vega",
+            "ja": "ベガ司令官"
+          },
+          "portrait": "images/portrait_commander.png",
+          "text": {
+            "en": "Nice flying. Repairs are done and your bombs are restocked.",
+            "es": "Buen vuelo. Reparaciones listas y bombas recargadas.",
+            "ja": "見事な飛行だった。修理と補給は完了した。"
+          }
+        },
+        {
+          "speaker": {
+            "en": "HALCYON",
+            "es": "HALCYON",
+            "ja": "ハルシオン"
+          },
+          "portrait": "images/portrait_ai.png",
+          "text": {
+            "en": "The enemy flagship is retreating toward Pluto. If we follow, there is no turning back.",
+            "es": "La nave insignia enemiga se retira hacia Plutón. Si la seguimos, no hay vuelta atrás.",
+            "ja": "敵旗艦は冥王星へ撤退中。追跡すれば後戻りはできません。"
+          },
+          "key": "pursue",
+          "responses": [
+            {
+              "id": "yes",
+              "text": {
+                "en": "We follow it.",
+                "es": "La seguimos.",
+                "ja": "追跡する。"
+              }
+            },
+            {
+              "id": "charon",
+              "text": {
+                "en": "Swing past Charon first.",
+                "es": "Primero pasamos por Caronte.",
+                "ja": "先にカロンを経由する。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nextLevels": [
+    {
+      "key": "pursue=charon",
+      "level": "levels/level2_charon.json"
+    },
+    {
+      "key": "route=belt & pursue=yes",
+      "level": "levels/level2_core.json"
+    },
+    {
+      "key": "*",
+      "level": "levels/level2_core.json"
+    }
+  ]
+}

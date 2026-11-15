@@ -1,0 +1,26 @@
+{
+  "name": "drone",
+  "model": "models/enemy_drone.glb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 0.9
+  },
+  "life": 3,
+  "radius": 0.7,
+  "score": 100,
+  "contactDamage": 2,
+  "motion": {
+    "name": "wave",
+    "speed": 4.5,
+    "amplitude": 2.0,
+    "frequency": 0.35
+  },
+  "fire": {
+    "name": "none"
+  },
+  "projectile": {
+    "color": "#FF8C26",
+    "damage": 1,
+    "life": 1
+  }
+}

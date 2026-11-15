@@ -1,0 +1,38 @@
+{
+  "name": "cruiser",
+  "model": "models/boss_cruiser.glb",
+  "textureFolder": "textures",
+  "transform": {
+    "scale": 1.0
+  },
+  "life": 160,
+  "radius": 2.4,
+  "score": 5000,
+  "contactDamage": 5,
+  "boss": true,
+  "motion": {
+    "name": "hold",
+    "distance": 9,
+    "speed": 3
+  },
+  "fire": {
+    "name": "radial",
+    "interval": 1.6,
+    "delay": 2.0,
+    "speed": 7,
+    "count": 14
+  },
+  "projectile": {
+    "color": "#FF4D80",
+    "size": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "damage": 2,
+    "life": 3,
+    "radius": 0.3
+  },
+  "deathSound": "sounds/big_explosion.wav",
+  "drop": "life"
+}
