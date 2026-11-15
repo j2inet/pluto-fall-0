@@ -190,11 +190,11 @@ namespace pf
                     status.color = slot.locked ? Colors::Green : Color{ 1, 1, 1, 0.7f + 0.3f * std::sin(m_time * 5.0f) };
                     ui.Text(Localization::GetW(slot.locked ? "select.ready" : "select.lock"),
                             D2D1::RectF(panel.left + 10, panel.bottom - 160, panel.right - 10, panel.bottom - 60), status);
-                    TextStyle small = body;
-                    small.size = 22.0f;
-                    small.color = Color{ 0.75f, 0.8f, 0.9f, 0.8f };
+                    TextStyle smallText = body;
+                    smallText.size = 22.0f;
+                    smallText.color = Color{ 0.75f, 0.8f, 0.9f, 0.8f };
                     ui.Text(Localization::GetW(slot.locked ? "select.unlock" : "select.leave"),
-                            D2D1::RectF(panel.left + 10, panel.bottom - 60, panel.right - 10, panel.bottom - 16), small);
+                            D2D1::RectF(panel.left + 10, panel.bottom - 60, panel.right - 10, panel.bottom - 16), smallText);
                 }
 
                 const bool anyJoined = std::ranges::any_of(m_slots, [](const Slot& s) { return s.device >= 0; });

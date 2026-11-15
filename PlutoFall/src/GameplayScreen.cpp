@@ -1096,18 +1096,18 @@ namespace pf
                     ui.Meter(D2D1::RectF(rect.left + pad, meterTop, rect.right - pad, meterTop + 18.0f), fraction, healthColor,
                              Color{ 0.15f, 0.05f, 0.05f, 0.8f });
 
-                    TextStyle small;
-                    small.size = 22.0f;
-                    small.wrap = false;
-                    small.color = Color{ 0.85f, 0.9f, 1.0f, 1.0f };
+                    TextStyle smallText;
+                    smallText.size = 22.0f;
+                    smallText.wrap = false;
+                    smallText.color = Color{ 0.85f, 0.9f, 1.0f, 1.0f };
                     const std::wstring info = std::format(L"{} {}   {} {}   {} {}/{}", Localization::GetW("hud.lives"), stats.lives,
                                                           Localization::GetW("hud.bombs"), stats.bombs,
                                                           Localization::GetW("hud.health"), stats.health, stats.maxHealth);
-                    ui.Text(info, D2D1::RectF(rect.left + pad, meterTop + 22.0f, rect.right - pad, meterTop + 52.0f), small);
+                    ui.Text(info, D2D1::RectF(rect.left + pad, meterTop + 22.0f, rect.right - pad, meterTop + 52.0f), smallText);
 
                     if (!ship.alive && stats.lives > 0 && m_phase == Phase::Playing)
                     {
-                        TextStyle respawn = small;
+                        TextStyle respawn = smallText;
                         respawn.color = Colors::Gold;
                         ui.Text(Localization::GetW("hud.respawning"),
                                 D2D1::RectF(rect.left + pad, meterTop + 50.0f, rect.right - pad, meterTop + 80.0f), respawn);
