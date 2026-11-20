@@ -122,6 +122,12 @@ namespace de
                                      10, 10, parent, nullptr, ui::Instance(), this);
         m_canvas = CreateWindowExW(WS_EX_CONTROLPARENT, CanvasClass, L"", WS_CHILD | WS_VISIBLE | WS_CLIPCHILDREN, 0, 0, 10,
                                    10, m_viewport, nullptr, ui::Instance(), this);
+        if (!m_canvas)
+        {
+            MessageBoxW(Owner(), (L"Could not create the editor panel:\n" + LastErrorMessage()).c_str(), L"Dialogue editor",
+                        MB_ICONERROR);
+            return;
+        }
         HWND c = m_canvas;
 
         // Language and title.
@@ -275,8 +281,13 @@ namespace de
     LRESULT CALLBACK DocumentView::CanvasProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
     {
         if (msg == WM_NCCREATE)
-            SetWindowLongPtrW(hwnd, GWLP_USERDATA,
-                              reinterpret_cast<LONG_PTR>(reinterpret_cast<CREATESTRUCTW*>(lp)->lpCreateParams));
+        {
+            // Store the handle now: HandleCanvas passes unhandled messages (including this one)
+            // to DefWindowProc using m_canvas, and a null handle would make creation fail.
+            auto* view = static_cast<DocumentView*>(reinterpret_cast<CREATESTRUCTW*>(lp)->lpCreateParams);
+            view->m_canvas = hwnd;
+            SetWindowLongPtrW(hwnd, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(view));
+        }
         auto* self = reinterpret_cast<DocumentView*>(GetWindowLongPtrW(hwnd, GWLP_USERDATA));
         return self ? self->HandleCanvas(msg, wp, lp) : DefWindowProcW(hwnd, msg, wp, lp);
     }
@@ -463,7 +474,8 @@ namespace de
         SetWindowPos(m_canvas, nullptr, 0, -m_scroll, rc.right, std::max(m_contentHeight, viewHeight),
                      SWP_NOZORDER | SWP_NOACTIVATE);
         SetScrollPos(m_viewport, SB_VERT, m_scroll, TRUE);
-        InvalidateRect(m_canvas, nullptr, TRUE);
+        // Controls were moved without repainting; redraw the canvas and all of them once.
+        RedrawWindow(m_canvas, nullptr, nullptr, RDW_INVALIDATE | RDW_ERASE | RDW_ALLCHILDREN);
     }
 
     void DocumentView::ScrollTo(int position)
