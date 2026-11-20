@@ -5,6 +5,8 @@ VisualStudioVersion = 18.0.0.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlutoFall", "PlutoFall\PlutoFall.vcxproj", "{7B3C1E52-4F2A-4C8B-9E61-5A2D8F0C1B74}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogEditor", "DialogEditor\DialogEditor.vcxproj", "{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{7B3C1E52-4F2A-4C8B-9E61-5A2D8F0C1B74}.Debug|ARM64.Build.0 = Debug|ARM64
 		{7B3C1E52-4F2A-4C8B-9E61-5A2D8F0C1B74}.Release|ARM64.ActiveCfg = Release|ARM64
 		{7B3C1E52-4F2A-4C8B-9E61-5A2D8F0C1B74}.Release|ARM64.Build.0 = Release|ARM64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Debug|x64.ActiveCfg = Debug|x64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Debug|x64.Build.0 = Debug|x64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Release|x64.ActiveCfg = Release|x64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Release|x64.Build.0 = Release|x64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3E8A6C21-9B47-4D1F-8C55-2A7E4F6B0D93}.Release|ARM64.Build.0 = Release|ARM64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

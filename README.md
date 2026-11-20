@@ -48,6 +48,7 @@ Questions are answered with Up/Down and fire.
 
 ```
 PlutoFall.sln
+DialogEditor/          dialogue editor (Win32), see "Dialogue editor" below
 PlutoFall/
   PlutoFall.vcxproj
   src/                 C++ sources
@@ -301,6 +302,51 @@ wins; `default`, `*` or an empty key is the fallback. Answers accumulate across 
 ### Settings
 
 Volumes, language and fullscreen are saved to `%LOCALAPPDATA%\PlutoFall\settings.json`.
+
+## Dialogue editor
+
+`DialogEditor` (in the same solution) is a Windows tool for editing the dialog files in
+`assets/dialog`. Build it alongside the game and run `DialogEditor.exe`.
+
+**Finding the assets folder.** The editor uses the folder given with `/asset`, for example
+`DialogEditor.exe /asset "C:\Projects\pluto-fall\PlutoFall\assets"`. Without it, it looks for a
+folder named `assets` next to the executable, then in each parent folder in turn. If none is found it
+offers to let you browse for one. The folder in use is shown in the toolbar and title bar.
+
+> Note: the game's build copies `PlutoFall\assets` next to the executables (`bin\<Platform>\<Configuration>\assets`),
+> so running `DialogEditor.exe` straight from that folder edits that **copy**, and the next game build can
+> overwrite your changes. When debugging from Visual Studio the project passes
+> `/asset "<solution>\PlutoFall\assets"` so the source files are edited. Use `/asset` the same way in a shortcut.
+
+**Left pane** – every `.json` file in `assets/dialog`, with the root `"title"` (if any) shown under the
+file name. Double-click a file (or right-click → **Open**) to edit it. Right-click also offers **Rename**
+(renames the file on disk immediately) and **Delete** / **Undelete**. Delete only *marks* the file (a trash
+can appears); files are deleted when you click **Save** and confirm the list. Answering **No** to that
+confirmation cancels the whole save. **New dialogue** asks for a file name and creates a starter file.
+
+**Right pane** – one tab per open file (`*` = unsaved; right-click a tab or press Ctrl+W to close it).
+Each tab has:
+
+* a **language** selector listing the languages used in the file (default `en`) and a **+** button to
+  add a language code; text fields show and edit only the selected language;
+* the **segments** list, which can be added to, removed from and reordered;
+* the selected segment's **id** (renaming it updates `goto` references), **terminal** flag and
+  **background** image (click the thumbnail for a full-screen view; **Change...** opens an image
+  picker for `assets/images`);
+* the segment's **entries**: speaker, text, portrait, and optionally a question **key** with
+  **responses** (id, text, goto);
+* the dialog's **next levels** (key and level).
+
+**What is preserved.** The editor works directly on the file's text structure, so comments,
+formatting, key order, number formatting and any attributes it doesn't know about are kept. Untouched
+files are saved byte-for-byte identical. Plain-string text (shared by every language) stays a plain string
+when edited in English and becomes a per-language object when another language is edited (the original
+text is kept as `en`).
+
+**Shortcuts:** Ctrl+S save · Ctrl+N new dialogue · Ctrl+W close tab · F5 reload the file list.
+
+The editor's JSON and dialog-model code has portable tests in `DialogEditor/tests/ModelTests.cpp`
+(see the comment at the top of that file for build commands).
 
 ## Regenerating the placeholder assets
 
