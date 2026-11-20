@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5E243ED4-7EBB-5549-9520-2EFB688DD129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{64441507-DC6B-59FE-A259-F32AE18B055B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{21BAE1C4-4AEC-5468-BA88-783BE5455B88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DialogModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DocumentView.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileListPane.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LosslessJson.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ui.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DialogModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DocumentView.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileListPane.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LosslessJson.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ui.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
